@@ -1,0 +1,2 @@
+[Service]
+ExecStart=-/usr/bin/chown droidian:droidian /dev/mtk_disp_mgr
