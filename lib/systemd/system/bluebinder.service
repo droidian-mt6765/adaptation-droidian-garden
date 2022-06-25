@@ -1,0 +1,27 @@
+[Unit]
+Description=Simple proxy for using android binder based bluetooth through vhci.
+Requires=lxc@android.service
+After=phosh.service
+Before=bluetooth.service
+
+[Service]
+Type=notify
+ExecStartPre=/usr/bin/waitforservice init.svc.*bluetooth*
+ExecStart=/usr/sbin/bluebinder
+ExecStartPost=/usr/bin/droid/bluebinder_post.sh
+Restart=always
+TimeoutStartSec=60
+# Sandboxing
+CapabilityBoundingSet=CAP_DAC_READ_SEARCH
+DeviceAllow=/dev/hwbinder rw
+DeviceAllow=/dev/vhci rw
+#DevicePolicy=strict
+NoNewPrivileges=yes
+PrivateNetwork=true
+PrivateTmp=yes
+ProtectHome=yes
+ProtectSystem=full
+
+[Install]
+WantedBy=graphical.target
+
