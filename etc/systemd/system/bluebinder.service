@@ -1,7 +1,7 @@
 [Unit]
 Description=Start bluebinder at boot
 Requires=lxc@android.service
-After=phosh.service
+After=modules.service
 
 [Service]
 Type=simple
