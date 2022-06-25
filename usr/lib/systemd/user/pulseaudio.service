@@ -17,7 +17,7 @@ Requires=pulseaudio.socket
 ConditionUser=!root
 
 [Service]
-Environment="PULSE_SCRIPT=/etc/pulse/touch-android9.pa"
+#Environment="PULSE_SCRIPT=/etc/pulse/touch-android9.pa"
 Environment="HYBRIS_LD_LIBRARY_PATH=/apex/com.android.runtime/lib:/system/lib:/vendor/lib"
 ExecStart=/usr/bin/pulseaudio --daemonize=no --log-target=journal
 LockPersonality=yes
