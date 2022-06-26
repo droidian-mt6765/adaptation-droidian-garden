@@ -4,4 +4,8 @@ include /usr/share/linux-packaging-snippets/kernel-snippet.mk
 
 %:
 	dh $@
+
 override_dh_dwz:
+override_dh_strip:
+override_dh_makeshlibs:
+
