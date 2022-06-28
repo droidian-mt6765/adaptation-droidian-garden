@@ -1,0 +1,16 @@
+/etc/udev/rules.d
+/etc/apt/sources.list.d
+/etc/modules-load.d
+/etc/ofono
+/etc/phosh
+/etc/pulse
+/etc/systemd/system
+/etc/systemd/system/android-mount.service.d
+/etc/systemd/system/phosh.service.d
+/usr/bin
+/usr/bin/droid
+/usr/lib/systemd/user
+/usr/share/keyrings
+/var/lib/bluetooth
+/lib/systemd/system
+/lib/udev/rules.d

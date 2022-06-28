@@ -1,76 +1,23 @@
-Source: linux-android-xiaomi-dandelion
-Section: kernel
+Source: adaptation-droidian-garden
+Maintainer: Bardia Moshiri
+Section: metapackages
 Priority: optional
-Maintainer: Droidian porters <info@droidian.org>
-Uploaders: Eugenio Paolantonio (g7) <eugenio@droidian.org>,
-           r3vn <giuseppe@droidian.org>,
-           Erfan Abdi <erfan@droidian.org>,
-           Erik Inkinen <erik@droidian.org>,
-Build-Depends: build-essential,
-               dpkg-dev,
-               findutils,
-               python2,
-               debhelper (>= 13),
-               bc,
-               rsync,
-               kmod,
-               cpio,
-               bison,
-               flex,
-               libssl-dev,
-               linux-initramfs-halium-generic,
-               linux-packaging-snippets,
-               android-sdk-ufdt-tests,
-               mkbootimg (>= 10.0.0),
-               mkdtboimg,
-               avbtool,
-               linux-initramfs-halium-generic:armhf, binutils-aarch64-linux-gnu, clang-android-6.0-4691093, gcc-4.9-aarch64-linux-android, g++-4.9-aarch64-linux-android, libgcc-4.9-dev-aarch64-linux-android-cross
+Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/linux-android-xiaomi-dandelion
-Vcs-Git: https://github.com/droidian/linux-android-xiaomi-dandelion.git
+Vcs-Browser: https://github.com/droidian-mt6765/adaptation-droidian-garden
+Vcs-Git: https://github.com/droidian-mt6765/adaptation-droidian-garden.git
 
-Package: linux-image-4.9-190-xiaomi-dandelion
-Architecture: armhf
-Depends: ${misc:Depends}
-Description: Linux kernel for Xiaomi Redmi 9A
- This package contains the Linux kernel for the Xiaomi Redmi 9A device.
- .
- Note: This package only ships the kernel image and modules, you should probably
- look at the linux-bootimage-4.9-190-xiaomi-dandelion package for a bootimage suitable
- for Android boot loaders.
-
-Package: linux-bootimage-4.9-190-xiaomi-dandelion
-Architecture: armhf
-Pre-Depends: flash-bootimage (>= 4)
+Package: adaptation-droidian-garden
+Architecture: all
 Depends: ${misc:Depends},
-         linux-image-4.9-190-xiaomi-dandelion (= ${binary:Version})
-Description: Linux kernel for Xiaomi Redmi 9A - Android Boot Image
- This package contains the Linux kernel for the Xiaomi Redmi 9A device.
- .
- Note: This package ships an Android Boot Image bundled with Halium's
- initramfs.
+         lxc-android (>= 1:9),
+         ofono-scripts,
+         adaptation-hybris-api29-phone,
+         adaptation-garden-configs,
+Description: adapatation-garden-meta
+ garden api29 adaptation metapackage
 
-Package: linux-headers-4.9-190-xiaomi-dandelion
-Architecture: armhf
+Package: adaptation-garden-configs
+Architecture: all
 Depends: ${misc:Depends},
-         linux-image-4.9-190-xiaomi-dandelion (= ${binary:Version})
-Description: Linux kernel for Xiaomi Redmi 9A - Headers
- This package contains the Linux kernel headers for the Xiaomi Redmi 9A device.
-
-Package: linux-image-xiaomi-dandelion
-Architecture: armhf
-Depends: linux-image-4.9-190-xiaomi-dandelion (= ${binary:Version})
-Description: Linux kernel for Xiaomi Redmi 9A (latest)
- This package depends to the latest kernel image available for the Xiaomi Redmi 9A.
-
-Package: linux-bootimage-xiaomi-dandelion
-Architecture: armhf
-Depends: linux-bootimage-4.9-190-xiaomi-dandelion (= ${binary:Version})
-Description: Linux kernel for Xiaomi Redmi 9A - Android Boot Image  (latest)
- This package depends to the latest kernel bootimage available for the Xiaomi Redmi 9A.
-
-Package: linux-headers-xiaomi-dandelion
-Architecture: armhf
-Depends: linux-headers-4.9-190-xiaomi-dandelion (= ${binary:Version})
-Description: Linux kernel for Xiaomi Redmi 9A - Headers (latest)
- This package depends to the latest kernel headers available for the Xiaomi Redmi 9A.
+Description: garden's adaptation configs

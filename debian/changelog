@@ -1,6 +1,6 @@
-linux-android-xiaomi-dandelion (0.0.0+git20220415092736.88cb61b.bookworm) bookworm; urgency=medium
+adaptation-droidian-garden (0.0.0+git20220415092736.88cb61b.halium10.new) halium10-new; urgency=medium
 
-  * dandelion_halium_defconfig: Enable IPSET support
+  * dandelion.list: add arch
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 24 Jun 2022 22:48:12 +0500
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 15 Apr 2022 14:27:36 +0500
 
