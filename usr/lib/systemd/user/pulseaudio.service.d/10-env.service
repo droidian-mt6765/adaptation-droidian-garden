@@ -1,0 +1,2 @@
+[Service]
+Environment="HYBRIS_LD_LIBRARY_PATH=/apex/com.android.runtime/lib:/system/lib:/vendor/lib"
