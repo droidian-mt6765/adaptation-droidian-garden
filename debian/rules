@@ -3,8 +3,5 @@
 %:
 	dh $@
 
-override_dh_dwz:
-override_dh_strip:
-override_dh_makeshlibs:
-dh_installsystemd -padaptation-garden-configs --name=modules.service:
-dh_installsystemd -padaptation-garden-configs --name=brightness.service:
+dh_installsystemd -padaptation-garden-configs --name=modules modules.service --no-start
+dh_installsystemd -padaptation-garden-configs --name=brightness brightness.service --no-start
