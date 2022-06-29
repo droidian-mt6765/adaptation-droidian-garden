@@ -7,10 +7,11 @@
 /etc/systemd/system/android-mount.service.d
 /etc/systemd/system/phosh.service.d
 /etc/systemd/user/pulseaudio.service.d
+/lib/systemd/system/bluebinder.service.d
+/lib/systemd/system/systemd-modules-load.service.d
 /usr/bin
 /usr/bin/droid
 /usr/share/keyrings
 /var/lib/bluetooth
 /lib/systemd/system/bluebinder.service.d
 /lib/systemd/system/systemd-modules-load.service.d
-/lib/udev/rules.d
