@@ -1,6 +1,6 @@
 adaptation-droidian-garden (0.0.0+git20220415092736.88cb61b.halium10.new) halium10-new; urgency=medium
 
-  * dandelion.list: add arch
+  * add symlinks for apt cleanup everything and fix rules file and a lot more.
 
  -- fakeshell <fakeshell@bardia.tech>  Fri, 15 Apr 2022 14:27:36 +0500
 
