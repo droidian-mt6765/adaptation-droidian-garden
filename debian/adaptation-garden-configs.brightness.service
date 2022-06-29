@@ -1,6 +1,7 @@
 [Unit]
 Description=Fix power button not working
 Requires=lxc@android.service
+After=phosh.service
 
 [Service]
 Type=oneshot
