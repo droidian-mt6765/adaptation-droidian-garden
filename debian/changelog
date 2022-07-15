@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20220415092736.88cb61b.halium10.new) halium10-new; urgency=medium
+adaptation-droidian-garden (0.0.0+git20220715092736.88cb61b.main) main; urgency=medium
 
   * add symlinks for apt cleanup everything and fix rules file and a lot more.
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 15 Apr 2022 14:27:36 +0500
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 15 Jul 2022 17:07:36 +0500
 
