@@ -10,8 +10,6 @@ Vcs-Git: https://github.com/droidian-mt6765/adaptation-droidian-garden.git
 Package: adaptation-droidian-garden
 Architecture: all
 Depends: ${misc:Depends},
-         lxc-android (>= 1:9),
-         ofono-scripts,
          adaptation-hybris-api29-phone,
          adaptation-garden-configs,
 Description: adapatation-garden-meta
