@@ -1,0 +1,11 @@
+[Unit]
+Description=Fix ssh saying system is booting for some reason
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'rm -f /run/nologin'
+
+[Install]
+WantedBy=multi-user.target
