@@ -1,4 +1,4 @@
-adaptation-droidian-garden (0.0.0+git20220715092736.88cb61b.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20220803062339.12gf68b.main) main; urgency=medium
 
   * add vendor overlay to fix log spam and high cpu usage
 
