@@ -1,0 +1,11 @@
+[Unit]
+Description=fix apt issue
+After=phosh.service
+
+[Service]
+ExecStart=/usr/bin/sed -i "/^_apt/d" /etc/passwd
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20220803062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20220804062339.12gf68b.main) main; urgency=medium
 
-  * add vendor overlay to fix log spam and high cpu usage
+  * fix apt sandboxing
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 03 Aug 2022 19:43:36 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 04 Aug 2022 00:05:36 +0330
 
