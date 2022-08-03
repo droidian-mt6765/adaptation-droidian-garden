@@ -1,0 +1,2 @@
+service pq-2-2 vendor.mediatek.hardware.pq@2.2-service_HALIUM_DISABLED
+    override

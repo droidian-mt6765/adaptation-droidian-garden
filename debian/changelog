@@ -1,6 +1,6 @@
 adaptation-droidian-garden (0.0.0+git20220715092736.88cb61b.main) main; urgency=medium
 
-  * rename some files from dandelion to garden
+  * add vendor overlay to fix log spam and high cpu usage
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 19 Jul 2022 17:07:36 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 03 Aug 2022 19:43:36 +0330
 

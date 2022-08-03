@@ -1,0 +1,11 @@
+[Unit]
+Description=Vendor overlay service
+Requires=lxc@android.service
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'mount -o bind /usr/lib/droid-vendor-overlay/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc /vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc'
+
+[Install]
+WantedBy=multi-user.target

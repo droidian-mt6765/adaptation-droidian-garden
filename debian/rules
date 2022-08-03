@@ -7,3 +7,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-garden-configs --name=modules modules.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=brightness brightness.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=ssh-fix ssh-fix.service --no-start
+	dh_installsystemd -padaptation-garden-configs --name=vendor-overlay.service --no-start
