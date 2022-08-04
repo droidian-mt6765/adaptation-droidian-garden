@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Flashlight ON
+Exec=/bin/sh -c "export FLASHLIGHT=$(find /sys -name brightness 2>&1 | grep -v 'Permission denied' | grep flashlight | sed -n 1p) && export MAX=$(find /sys -name "max_brightness" 2>&1 | grep -v 'Permission denied' | grep flashlight | sed -n '1p') && export MAX_NUM=$(cat $MAX) && echo $MAX_NUM > $FLASHLIGHT"
+Icon=/usr/share/icons/flashlight.png

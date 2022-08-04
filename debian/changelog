@@ -1,6 +1,6 @@
 adaptation-droidian-garden (0.0.0+git20220804062339.12gf68b.main) main; urgency=medium
 
-  * fix apt sandboxing
+  * add a flashlight icon
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 04 Aug 2022 00:05:36 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 04 Aug 2022 06:29:36 +0330
 
