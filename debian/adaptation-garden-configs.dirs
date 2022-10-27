@@ -13,5 +13,6 @@
 /usr/bin/droid
 /usr/share/keyrings
 /var/lib/bluetooth
+/var/lib/batman
 /lib/systemd/system/bluebinder.service.d
 /lib/systemd/system/systemd-modules-load.service.d

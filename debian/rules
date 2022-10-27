@@ -9,3 +9,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-garden-configs --name=ssh-fix ssh-fix.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=vendor-overlay vendor-overlay.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=apt-fix apt-fix.service --no-start
+        dh_installsystemd -padaptation-garden-configs --name=batman batman.service --no-start
