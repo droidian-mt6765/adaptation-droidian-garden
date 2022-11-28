@@ -1,1 +1,2 @@
 /usr/lib/adaptation-droidian-garden/sources.list.d/garden.list /etc/apt/sources.list.d/garden.list
+/usr/lib/adaptation-droidian-garden/sources.list.d/batman.list /etc/apt/sources.list.d/batman.list
