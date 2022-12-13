@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20221127062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20221213062339.12gf68b.main) main; urgency=medium
 
-  * upstream batman
+  * fix for new kernel
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 27 nov 2022 05:42:55 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Tue, 13 Dec 2022 09:53:55 +0330
 

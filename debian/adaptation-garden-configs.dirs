@@ -12,6 +12,8 @@
 /usr/bin
 /usr/bin/droid
 /usr/share/keyrings
+/usr/share/applications
+/usr/share/icons
 /var/lib/bluetooth
 /var/lib/batman
 /lib/systemd/system/bluebinder.service.d
