@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20221213062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230102062339.12gf68b.main) main; urgency=medium
 
-  * add flashlight.png
+  * update wlr-randr and update phoc.ini
 
- -- fakeshell <fakeshell@bardia.tech>  Tue, 13 Dec 2022 13:13:30 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Tue, 02 Jan 2023 18:56:30 +0330
 
