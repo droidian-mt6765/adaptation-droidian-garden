@@ -1,8 +1,0 @@
-[Unit]
-Description=A Workaround for the power button problem.
-
-[Service]
-ExecStart=/usr/local/bin/power_button_helper
-
-[Install]
-WantedBy=multi-user.target
