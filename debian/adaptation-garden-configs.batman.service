@@ -1,8 +1,11 @@
 [Unit]
-Description=Battery management for Linux phones
+Description=battery management for Linux phones
 Requires=upower.service
 After=multi-user.target
 
 [Service]
 Type=simple
 ExecStart=/usr/bin/batman
+
+[Install]
+WantedBy=graphical.target
