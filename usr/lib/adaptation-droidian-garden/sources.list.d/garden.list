@@ -1,1 +1,1 @@
-deb [arch=armhf signed-by=/usr/share/keyrings/garden.gpg] http://mirror.bardia.tech/garden bookworm main
+deb [signed-by=/usr/share/keyrings/garden.gpg] http://mirror.bardia.tech/garden bookworm main
