@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-droidian-garden
+Upstream-Name: adaptation-droidian-garden-arm64
 Source: https://github.com/droidian-mt6765/adaptation-droidian-garden
 
 Files: *

@@ -1,0 +1,22 @@
+[Unit]
+Description=Enable all modules on boot
+Requires=lxc@android.service
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'mkdir -p /lib/modules/$(uname -r)'
+ExecStart=/bin/sh -c 'cp /vendor/lib/modules/* /lib/modules/$(uname -r)'
+ExecStart=/bin/sh -c 'cp /lib/modules/vendor/* /lib/modules/$(uname -r)'
+ExecStart=/bin/sh -c 'if [ ! -f /lib/modules/$(uname -r)/modules.dep ]; then depmod; fi'
+ExecStart=/bin/sh -c 'modprobe wmt_drv --force'
+ExecStart=/bin/sh -c 'modprobe wlan_drv_gen4m --force'
+ExecStart=/bin/sh -c 'echo 1 > /dev/wmtWifi'
+ExecStart=/bin/sh -c 'modprobe gps_drv --force'
+ExecStart=/bin/sh -c 'modprobe bt_drv --force'
+ExecStart=/bin/sh -c 'modprobe fmradio_drv --force'
+ExecStart=/bin/sh -c 'modprobe fpsgo --force'
+ExecStart=/bin/sh -c 'modprobe met --force'
+
+[Install]
+WantedBy=multi-user.target

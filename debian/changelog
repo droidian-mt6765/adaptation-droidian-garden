@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20230116062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-garden-arm64 (0.0.0+git20230210062339.12gf68b.main) main; urgency=medium
 
-  * add pbhelper
+  * add arm64 branch for the half baked alps vendor
 
- -- fakeshell <fakeshell@bardia.tech>  Mon, 16 Jan 2023 00:17:45 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 10 Feb 2023 12:36:55 +0330
 

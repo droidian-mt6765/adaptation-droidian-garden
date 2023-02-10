@@ -4,10 +4,10 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-garden-configs --name=modules modules.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=brightness brightness.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=ssh-fix ssh-fix.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=vendor-overlay vendor-overlay.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=apt-fix apt-fix.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=batman batman.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=pbhelper pbhelper.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=modules modules.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=brightness brightness.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=ssh-fix ssh-fix.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=vendor-overlay vendor-overlay.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=apt-fix apt-fix.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=batman batman.service --no-start
+	dh_installsystemd -padaptation-garden-configs-arm64 --name=pbhelper pbhelper.service --no-start

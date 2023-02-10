@@ -1,21 +1,23 @@
-Source: adaptation-droidian-garden
+Source: adaptation-droidian-garden-arm64
 Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian-mt6765/adaptation-droidian-garden
+Vcs-Browser: https://github.com/droidian-mt6765/adaptation-droidian-garden/tree/arm64
 Vcs-Git: https://github.com/droidian-mt6765/adaptation-droidian-garden.git
 
-Package: adaptation-droidian-garden
+Package: adaptation-droidian-garden-arm64
 Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
-         adaptation-garden-configs,
+         adaptation-garden-configs-arm64,
+Conflicts: adaptation-droidian-garden
 Description: adapatation-garden-meta
  garden api29 adaptation metapackage
 
-Package: adaptation-garden-configs
+Package: adaptation-garden-configs-arm64
 Architecture: all
 Depends: ${misc:Depends},
+Conflicts: adaptation-garden-configs
 Description: garden's adaptation configs
