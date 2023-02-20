@@ -8,14 +8,15 @@ Type=oneshot
 ExecStart=/bin/sh -c 'mkdir -p /lib/modules/$(uname -r)'
 ExecStart=/bin/sh -c 'cp /vendor/lib/modules/* /lib/modules/$(uname -r)'
 ExecStart=/bin/sh -c 'if [ ! -f /lib/modules/$(uname -r)/modules.dep ]; then depmod; fi'
-ExecStart=/bin/sh -c 'modprobe wmt_drv --force'
-ExecStart=/bin/sh -c 'modprobe wlan_drv_gen4m --force'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/wmt_drv ]; then modprobe --force wmt_drv; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/wmt_chrdev_wifi.ko ]; then modprobe --force wmt_chrdev_wifi; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/wlan_drv_gen4m.ko ]; then modprobe --force wlan_drv_gen4m; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/gps_drv.ko ]; then modprobe --force gps_drv; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/bt_drv.ko ]; then modprobe --force bt_drv; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/fmradio_drv.ko ]; then modprobe --force fmradio_drv; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/fpsgo.ko ]; then modprobe --force fpsgo; fi'
+ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/met.ko ]; then modprobe --force met; fi'
 ExecStart=/bin/sh -c 'echo 1 > /dev/wmtWifi'
-ExecStart=/bin/sh -c 'modprobe gps_drv --force'
-ExecStart=/bin/sh -c 'modprobe bt_drv --force'
-ExecStart=/bin/sh -c 'modprobe fmradio_drv --force'
-ExecStart=/bin/sh -c 'modprobe fpsgo --force'
-ExecStart=/bin/sh -c 'modprobe met --force'
 
 [Install]
 WantedBy=multi-user.target
