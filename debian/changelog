@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20230220062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230303062339.e30a1ed.main) main; urgency=medium
 
-  * make modules service not fail if a module isn't available (angelica)
+  * upstream batman
 
- -- fakeshell <fakeshell@bardia.tech>  Mon, 20 Feb 2023 14:58:45 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 03 Mar 2023 14:00:45 +0330
 
