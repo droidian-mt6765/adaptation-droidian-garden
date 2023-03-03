@@ -1,6 +1,5 @@
-adaptation-droidian-garden-arm64 (0.0.0+git20230210062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-garden-arm64 (0.0.0+git20230303062339.91e349a.main) main; urgency=medium
 
-  * add arm64 branch for the half baked alps vendor
+  * upstream batman
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 10 Feb 2023 12:36:55 +0330
-
+ -- fakeshell <fakeshell@bardia.tech>  Fri, 3 Mar 2023 14:05:55 +0330
