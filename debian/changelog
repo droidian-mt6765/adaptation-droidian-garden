@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20230303062339.e30a1ed.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230305062339.35e3546.main) main; urgency=medium
 
-  * upstream batman
+  * generate map files with no condition
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 03 Mar 2023 14:00:45 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 05 Mar 2023 01:13:45 +0330
 
