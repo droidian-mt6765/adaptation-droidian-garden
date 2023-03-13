@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20230305062339.35e3546.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230314062339.f61e06d.main) main; urgency=medium
 
-  * generate map files with no condition
+  * add preferred hostname
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 05 Mar 2023 01:13:45 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 14 Mar 2023 02:24:45 +0330
 

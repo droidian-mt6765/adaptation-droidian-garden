@@ -1,6 +1,7 @@
 [Unit]
 Description=Enable all modules on boot
 Requires=lxc@android.service
+Before=droidian-boot-wlan.service
 After=lxc@android.service
 
 [Service]
@@ -16,7 +17,6 @@ ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/bt_drv.ko ]; then modprob
 ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/fmradio_drv.ko ]; then modprobe --force fmradio_drv; fi'
 ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/fpsgo.ko ]; then modprobe --force fpsgo; fi'
 ExecStart=/bin/sh -c 'if [ -f /lib/modules/$(uname -r)/met.ko ]; then modprobe --force met; fi'
-ExecStart=/bin/sh -c 'echo 1 > /dev/wmtWifi'
 
 [Install]
 WantedBy=multi-user.target

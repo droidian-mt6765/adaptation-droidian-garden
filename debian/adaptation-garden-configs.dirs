@@ -16,5 +16,6 @@
 /usr/share/icons
 /var/lib/bluetooth
 /var/lib/batman
+/var/lib/droidian/
 /lib/systemd/system/bluebinder.service.d
 /lib/systemd/system/systemd-modules-load.service.d
