@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20230314062339.f61e06d.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230319062339.dcd58e6.main) main; urgency=medium
 
-  * add preferred hostname
+  * move over files from var/lib to usr/lib/droidian/device
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 14 Mar 2023 02:24:45 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 00:55:45 +0330
 
