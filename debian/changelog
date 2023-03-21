@@ -1,6 +1,6 @@
-adaptation-droidian-garden (0.0.0+git20230319062339.dcd58e6.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230321062339.20853e1.main) main; urgency=medium
 
-  * move over files from var/lib to usr/lib/droidian/device
+  * add wlr-randr as a dependency
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 00:55:45 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Tue, 21 Mar 2023 22:55:45 +0330
 

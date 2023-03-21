@@ -12,6 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-garden-configs,
+         control,
 Description: adapatation-garden-meta
  garden api29 adaptation metapackage
 
