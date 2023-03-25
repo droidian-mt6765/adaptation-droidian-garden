@@ -14,9 +14,8 @@
 /usr/share/keyrings
 /usr/share/applications
 /usr/share/icons
+/usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
 /usr/lib/droid-vendor-overlay
 /var/lib/bluetooth
 /var/lib/batman
-/lib/systemd/system/bluebinder.service.d
-/lib/systemd/system/systemd-modules-load.service.d
