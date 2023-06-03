@@ -1,22 +1,23 @@
-Source: adaptation-droidian-garden
+Source: adaptation-droidian-angelica
 Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian-mt6765/adaptation-droidian-garden
-Vcs-Git: https://github.com/droidian-mt6765/adaptation-droidian-garden.git
+Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-angelica
+Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-angelica.git
 
-Package: adaptation-droidian-garden
+Package: adaptation-droidian-angelica
 Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
-         adaptation-garden-configs,
+         adaptation-angelica-configs,
+         linux-bootimage-xiaomi-angelica,
          wlr-randr,
-Description: adapatation-garden-meta
- garden api29 adaptation metapackage
+Description: adapatation-angelica-meta
+ angelica api29 adaptation metapackage
 
-Package: adaptation-garden-configs
+Package: adaptation-angelica-configs
 Architecture: all
 Depends: ${misc:Depends},
-Description: garden's adaptation configs
+Description: angelica's adaptation configs

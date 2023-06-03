@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-droidian-garden
-Source: https://github.com/droidian-mt6765/adaptation-droidian-garden
+Upstream-Name: adaptation-droidian-angelica
+Source: https://github.com/droidian-devices/adaptation-droidian-angelica
 
 Files: *
 Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>

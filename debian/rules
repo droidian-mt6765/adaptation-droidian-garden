@@ -4,9 +4,9 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-garden-configs --name=modules modules.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=brightness brightness.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=ssh-fix ssh-fix.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=apt-fix apt-fix.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=batman batman.service --no-start
-	dh_installsystemd -padaptation-garden-configs --name=pbhelper pbhelper.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=modules modules.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=brightness brightness.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=ssh-fix ssh-fix.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=apt-fix apt-fix.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=batman batman.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=pbhelper pbhelper.service --no-start

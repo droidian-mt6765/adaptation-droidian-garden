@@ -11,9 +11,6 @@
 /lib/systemd/system/systemd-modules-load.service.d
 /usr/bin
 /usr/bin/droid
-/usr/share/keyrings
-/usr/share/applications
-/usr/share/icons
 /usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
 /usr/lib/droid-vendor-overlay
