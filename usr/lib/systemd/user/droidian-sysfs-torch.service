@@ -1,0 +1,8 @@
+[Unit]
+Description=Sysfs flashlight controller
+After=org.droidian.Flashlightd.service
+
+[Service]
+Type=simple
+ExecStart=/opt/droidian-sysfs-torch/bin/droidian-sysfs-torch
+Restart=on-failure

@@ -2,3 +2,4 @@ etc/* /etc
 usr/* /usr
 lib/* /lib
 var/* /var
+opt/* /opt
