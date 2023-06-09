@@ -14,7 +14,6 @@
 /usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
 /usr/lib/droid-vendor-overlay
-/usr/lib/adaptation-droidian-angelica/batman
 /usr/lib/systemd/user
 /var/lib/bluetooth
 /opt/droidian-sysfs-torch/bin
