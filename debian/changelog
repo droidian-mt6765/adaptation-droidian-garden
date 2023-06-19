@@ -1,6 +1,5 @@
-adaptation-droidian-garden (0.0.0+git202303252918331.6d41b85.main) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git2023061823154701.5258b98.bookworm) main; urgency=medium
 
-  * disable suspend
+  * drop batman as its now upstream
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Sat, 25 Mar 2023 08:23:45 +0330
-
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Sun, 18 Jun 2023 23:15:47 -0400
