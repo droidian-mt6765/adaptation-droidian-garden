@@ -15,7 +15,6 @@
 /usr/share/applications
 /usr/share/icons
 /var/lib/bluetooth
-/var/lib/batman
 /lib/systemd/system/bluebinder.service.d
 /lib/systemd/system/systemd-modules-load.service.d
 /lib/modules/vendor
