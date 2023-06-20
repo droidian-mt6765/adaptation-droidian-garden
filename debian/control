@@ -13,8 +13,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-angelica-configs,
          linux-bootimage-xiaomi-angelica,
-         qt5-cameraplugin-aal,
-         qtmultimedia5-examples
+         droidian-camera
 Description: adapatation-angelica-meta
  angelica api29 adaptation metapackage
 

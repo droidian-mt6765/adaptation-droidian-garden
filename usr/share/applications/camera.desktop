@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Camera App
-Exec=/bin/sh -c "/usr/lib/aarch64-linux-gnu/qt5/examples/multimedia/declarative-camera/declarative-camera -platform wayland"
-Icon=/usr/share/icons/camera.jpg

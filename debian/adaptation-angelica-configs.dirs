@@ -12,10 +12,6 @@
 /usr/bin
 /usr/bin/droid
 /usr/share/glib-2.0/schemas
-/usr/share/icons
-/usr/share/sounds
-/usr/share/applications
 /usr/lib/droidian/device
 /usr/lib/droid-vendor-overlay
-/usr/lib/systemd/user
 /var/lib/bluetooth
