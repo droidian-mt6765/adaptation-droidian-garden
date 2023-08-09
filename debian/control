@@ -13,7 +13,8 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-angelica-configs,
          linux-bootimage-xiaomi-angelica,
-         droidian-camera
+         droidian-camera,
+         btscanner-gcc
 Description: adapatation-angelica-meta
  angelica api29 adaptation metapackage
 
