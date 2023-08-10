@@ -12,6 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-garden-configs,
+         btscanner-gcc,
 Description: adapatation-garden-meta
  garden api29 adaptation metapackage
 
