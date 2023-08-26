@@ -12,3 +12,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-angelica-configs --name=ssh-fix ssh-fix.service --no-start
 	dh_installsystemd -padaptation-angelica-configs --name=apt-fix apt-fix.service --no-start
 	dh_installsystemd -padaptation-angelica-configs --name=pbhelper pbhelper.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=droidicu-mount droidicu-mount.service --no-start
