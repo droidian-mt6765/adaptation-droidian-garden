@@ -4,7 +4,7 @@
 	dh $@
 
 override_dh_auto_build:
-	gcc src/pbhelper.c -o usr/bin/pbhelper -O3 -static
+	gcc src/pbhelper.c -lbatman-wrappers -O3 -o usr/bin/pbhelper
 
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-angelica-configs --name=modules modules.service --no-start
