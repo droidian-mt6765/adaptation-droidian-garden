@@ -1,5 +1,114 @@
-adaptation-droidian-garden (0.0.0+git2023061823154701.5258b98.bookworm) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git2023061823154701.5258b98.bookworm+git20230911125255.16dc4bb.release) main; urgency=medium
 
+  [ Bardia Moshiri ]
+  * add files
+  * power button fix
+  * move pa file
+  * enable add modules at boot
+  * fix pulseaudio crashing
+  * start bluetooth at boot (partial)
+  * fix audio
+  * add resize binaries
+  * edit bluebinder service to prevent fails
+  * add 9c to readme
+  * delete my own bluebinder service and fix bluebinder of droidian
+  * start bluebinder after modules.service
+  * add modules
+  * fix systemd modules service to not fail
+  * add bluetooth script
+  * fix volume control
+  * update rules file
+  * add gpg key of apt repo
+  * add my servers repo
+  * add unarmored key
+  * add arch
+  * add pulseaudio socket file
+  * remove old debian and add adaptation package debian
+  * remove old debian and add adaptation package debian
+  * move service files to debian
+  * remove readme
+  * make pulseaudio service persist in upgrades
+  * make systemd modules service persist in upgrades
+  * remove systemd modules service file
+  * typo
+  * remove old files
+  * make bluebinder service persist in upgrades
+  * rename file
+  * add depmod to regenerate needed files
+  * clean rules and fix a few mistakes also rename service files
+  * cleanup dirs
+  * move pulseaudio files to keep things cleaner
+  * change dir
+  * cleanup and add symlink of garden.list
+  * rename udev rule file
+  * remove extra udev rule apparently not needed after testing again
+  * fix override line missing
+  * fix a halium container issue and improve boot speed
+  * rename modules and brightness services
+  * remove extra file
+  * fix ofono configs
+  * fix another bootloop
+  * fix package not being installable and persist pulse audio config at upgrades
+  * fix power button not working somtimes
+  * finally fix scaling
+  * add changelog
+  * fix dependencies
+  * fix build error
+  * add ssh-fix
+  * rename some files from dandelion to garden
+  * add vendor overlay files
+  * update changelog
+  * fix a typo
+  * fix device sometimes getting stuck at boot
+  * fix apt
+  * add a flashlight icon
+  * add batman
+  * upstream batman
+  * rules file tabs instead of spaces!
+  * add flashlight icon
+  * update phoc.ini
+  * update wlr-randr and phoc.ini
+  * remove bamtan.list
+  * remove batman.list symlink
+  * update phosh scaling
+  * Merge pull request #2 from thatsitipl/main
+  * set the correct target for power button helper
+  * rename power_button_helper to pbhelper
+  * upstream batman
+  * Merge pull request #3 from thatsitipl/main
+  * drop arch parameter from garden apt list
+  * add arch=all to ignore warnings for armhf and arm64
+  * make modules service not fail if a module is missing
+  * upstream batman
+  * generate map files without any condition
+  * add preferred hostname
+  * move over files from var/lib to usr/lib/droidian/device
+  * add wlr-randr as a dependecy
+  * update pbhelper
+  * im a moron
+  * disable suspend
   * drop batman as its now upstream
+  * changelog: bump
+  * debian: add btscanner-gcc to meta
+  * vendor-overlay: overlay vibrator with correct interface
+  * droidian: use sysfs backend of flashlightd
+  * vendor-overlay: add symlinks for androidicu
+  * debian: add the service for libicu mounts
+  * droidian: add mtp-supported signature file
+  * rewrite pbhelper with wlrdisplay
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Sun, 18 Jun 2023 23:15:47 -0400
+  [ thatsitipl ]
+  * Create power_button_helper.service
+  * Add power_button_helper binary
+  * Update pbhelper to v1.1
+  * Update pbhelper to v1.1
+
+  [ BuildTools ]
+  * Bump pbhelper to v1.1
+
+  [ FakeShell ]
+  * Initial commit
+  * Delete touch-android9.pa
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Mon, 11 Sep 2023 12:52:55 -0400
+
