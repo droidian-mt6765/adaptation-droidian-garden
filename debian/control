@@ -2,7 +2,7 @@ Source: adaptation-droidian-garden
 Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10), batman-dev
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian-mt6765/adaptation-droidian-garden
 Vcs-Git: https://github.com/droidian-mt6765/adaptation-droidian-garden.git
@@ -13,6 +13,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-garden-configs,
          btscanner-gcc,
+         libbatman-wrappers
 Description: adapatation-garden-meta
  garden api29 adaptation metapackage
 
