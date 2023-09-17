@@ -1,7 +1,7 @@
 [Unit]
 Description=run droidian performance tweaks
 Requires=lxc@android.service
-After=android_boot_completed.service
+After=droidian_boot_completed.service
 
 [Service]
 Type=oneshot
