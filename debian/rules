@@ -7,9 +7,11 @@ override_dh_auto_build:
 	gcc src/pbhelper.c -lbatman-wrappers -O3 -o usr/bin/pbhelper
 
 override_dh_installsystemd:
+<<<<<<< HEAD
 	dh_installsystemd -padaptation-garden-configs --name=modules modules.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=brightness brightness.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=ssh-fix ssh-fix.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=apt-fix apt-fix.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=pbhelper pbhelper.service --no-start
 	dh_installsystemd -padaptation-garden-configs --name=droidicu-mount droidicu-mount.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=droidian-perf droidian-perf.service --no-start
