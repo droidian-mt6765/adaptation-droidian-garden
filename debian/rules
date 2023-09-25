@@ -5,6 +5,7 @@
 
 override_dh_auto_build:
 	gcc src/pbhelper.c -lbatman-wrappers -O3 -o usr/bin/pbhelper
+	gcc src/rot_helper.c `pkg-config --libs --cflags gio-2.0 gtk+-3.0 libevdev` -O3 -o usr/bin/rot_helper
 
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-angelica-configs --name=modules modules.service --no-start
@@ -14,3 +15,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-angelica-configs --name=pbhelper pbhelper.service --no-start
 	dh_installsystemd -padaptation-angelica-configs --name=droidicu-mount droidicu-mount.service --no-start
 	dh_installsystemd -padaptation-angelica-configs --name=droidian-perf droidian-perf.service --no-start
+	dh_installsystemd -padaptation-angelica-configs --name=rot_helper rot_helper.service --no-start
