@@ -1,0 +1,10 @@
+[Unit]
+Description=A Workaround for rotation issue of garden
+After=phosh.service
+
+[Service]
+Environment=DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/32011/bus"
+ExecStart=/usr/bin/rot_helper /dev/input/event3
+
+[Install]
+WantedBy=graphical.target
