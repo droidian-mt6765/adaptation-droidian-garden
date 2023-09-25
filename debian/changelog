@@ -1,4 +1,4 @@
-adaptation-droidian-garden (0.0.0+git2023061823154701.5258b98.bookworm+git20230911125255.16dc4bb.release) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20230925103430.4c2b01b.release) main; urgency=medium
 
   [ Bardia Moshiri ]
   * add files
@@ -96,6 +96,13 @@ adaptation-droidian-garden (0.0.0+git2023061823154701.5258b98.bookworm+git202309
   * debian: add the service for libicu mounts
   * droidian: add mtp-supported signature file
   * rewrite pbhelper with wlrdisplay
+  * debian: build changelog
+  * vendor-overlay: drop libandroidicu mounts in favor of api29 quirks
+  * add droidian-perf
+  * debian: start droidian-perf after droidian_boot_completed.service
+  * load modules using a script instead of a systemd service to make sure all modules always load fine
+  * treewide: add the rotation fix program
+  * debian: adapt from angelica to garden
 
   [ thatsitipl ]
   * Create power_button_helper.service
@@ -110,5 +117,5 @@ adaptation-droidian-garden (0.0.0+git2023061823154701.5258b98.bookworm+git202309
   * Initial commit
   * Delete touch-android9.pa
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Mon, 11 Sep 2023 12:52:55 -0400
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Mon, 25 Sep 2023 10:34:30 -0400
 
