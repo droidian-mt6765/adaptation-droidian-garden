@@ -10,6 +10,8 @@
 // Convert seconds to micros
 #define SLEEP_PERIOD 0.2*1000000
 
+#define WRITE_SLEEP_PERIOD 0.1*1000000
+
 // For debug uncomment
 //#define DEBUG
 #define READ_FORMAT "Read : %d bytes from %s\n"
@@ -52,6 +54,8 @@ int main(int argc,char* argv[]){
 
                 debug(WRITE_FORMAT, bwritten, "/sys/class/leds/lcd-backlight/brightness");
                 debug("Setting Brightness to %s\n", before_lock);
+
+                usleep(WRITE_SLEEP_PERIOD);
 
                 // Setting the Brightness saved before
                 brightness_control = open("/sys/class/leds/lcd-backlight/brightness",O_WRONLY);
