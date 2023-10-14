@@ -1,1 +1,1 @@
-deb [arch=all signed-by=/usr/share/keyrings/garden.gpg] http://repo.bardia.tech/ bookworm main
+deb [arch=all signed-by=/usr/share/keyrings/garden.gpg] http://repo.bardia.tech/ trixie main
