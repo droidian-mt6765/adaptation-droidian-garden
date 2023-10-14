@@ -1,4 +1,4 @@
-adaptation-droidian-garden (0.0.0+git20230925103430.4c2b01b.release) main; urgency=medium
+adaptation-droidian-garden (0.0.0+git20231013230518.a1727be.release) main; urgency=medium
 
   [ Bardia Moshiri ]
   * add files
@@ -103,6 +103,11 @@ adaptation-droidian-garden (0.0.0+git20230925103430.4c2b01b.release) main; urgen
   * load modules using a script instead of a systemd service to make sure all modules always load fine
   * treewide: add the rotation fix program
   * debian: adapt from angelica to garden
+  * debian: bump changelog
+  * debian: build as armhf
+  * pbhelper: add a timeout between blank and unblank
+  * drop phoc scripts
+  * update to trixie and drop upstreamed patches
 
   [ thatsitipl ]
   * Create power_button_helper.service
@@ -117,5 +122,5 @@ adaptation-droidian-garden (0.0.0+git20230925103430.4c2b01b.release) main; urgen
   * Initial commit
   * Delete touch-android9.pa
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Mon, 25 Sep 2023 10:34:30 -0400
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Fri, 13 Oct 2023 23:05:18 -0400
 

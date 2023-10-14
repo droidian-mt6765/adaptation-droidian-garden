@@ -5,15 +5,12 @@
 /etc/phosh
 /etc/pulse
 /etc/systemd/system/android-mount.service.d
-/etc/systemd/system/phosh.service.d
 /etc/systemd/user/pulseaudio.service.d
 /lib/systemd/system/bluebinder.service.d
 /lib/systemd/system/systemd-modules-load.service.d
 /usr/bin
 /usr/bin/droid
 /usr/share/keyrings
-/usr/share/applications
-/usr/share/icons
 /usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
 /usr/lib/droid-vendor-overlay
